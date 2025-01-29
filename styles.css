@@ -1,0 +1,74 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor de la publicación */
+.parte-fuera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Tarjeta estilo Instagram */
+.instagram-post {
+    width: 360px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabecera */
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.foto-perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info .username {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.user-info .location {
+    font-size: 12px;
+    color: #8e8e8e;
+    margin: 0;
+}
+
+/* Imagen principal */
+.post-imagen img {
+    width: 100%;
+    display: block;
+}
+
+/* Pie de publicación */
+.post-footer {
+    padding: 10px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.post-footer .timestamp {
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: 5px;
+}
